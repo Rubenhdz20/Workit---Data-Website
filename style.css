@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'Fraunces';
+    src: url(./assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf) format('trutype');
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(./assets/fonts/manrope/Manrope-VariableFont_wght.ttf) format('trutype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.introduction {
+    position: relative;
+    height: 48rem;
+    padding-bottom: 11rem;
+    background-color: #24053E;
+    border-radius: 0 0 50% 50% / 0 0 20px 20px;
+}
+
+.introduction_cta {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.introduction_title {
+    font-family: Manrope;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.2rem; /* 200% */
+    letter-spacing: -0.16px;
+    color: white;
+    border-bottom: 3px solid #44FFA1;
+}
+
+.introduction_title:hover {
+    color: #44FFA1;
+    cursor: pointer;
+}
+
+.introduction_underline {
+    text-decoration: underline 3px #44FFA1;
+    text-underline-offset: 10px;
+}
+
+.introduction_spiral--1 {
+    display: none;
+}
+
+.introduction_spiral--2 {
+    display: none;
+}
+
+h1 {
+    margin-top: 3rem;
+    font-family: Fraunces;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    line-height: 50px; /* 100% */
+}
+
+.introduction_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.learn-more {
+    width: 13.3rem;
+    height: 5.5rem; 
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #44FFA1;
+    line-height: 32px; /* 200% */
+    letter-spacing: -0.16px;
+    border: none;
+    cursor: pointer;
+}
+
+.phone {
+    position: absolute;
+    height: 18rem;
+    top: 381px;
+    right: 21px;
+}
+
+.information {
+    padding-top: 15rem;
+    background-color: #FCF8FF;
+    border-radius: 0 0 50% 50% / 0 0 20px 20px;
+}
+
+.information_container {
+    padding: 1.5rem;
+}
+
+.last {
+    padding-bottom: 8rem;
+}
+
+.information_steps {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.information_details h3 {
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    color: #24053E;
+    line-height: 36px; /* 128.571% */
+}
+
+.information_details p {
+    max-width: 31rem;
+    margin:0 auto;
+    padding: 1rem;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color:  #584D62;
+    line-height: 28px; /* 175% */
+}
+
+.testimonial_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    z-index: -1
+}
+
+.testimonial_img {
+    width: 28rem;
+    height: 28rem;
+}
+
+.testimonial_information {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 34.3rem;
+    height: 39.5rem;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #24053E;
+}
+
+.testimonial_information h3 {
+    font-family: Fraunces;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    color: #FFF;
+    line-height: 48px; /* 150% */
+}
+
+.testimonial_information p {
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+    text-align: center;
+    line-height: 28px; /* 175% */
+}
+
+.testimonial_button {
+    width: 13.3rem;
+    height: 5.5rem; 
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #44FFA1;
+    line-height: 32px; /* 200% */
+    letter-spacing: -0.16px;
+    cursor: pointer;
+    border: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.testimonial_button:hover{
+    background-color: #24053E;
+    color: #44FFA1;
+    border: 2px solid #44FFA1;
+}
+
+.testimonial_spiral {
+    display: none;
+}
+
+.footer {
+    padding: 7rem;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.contact_workit {
+    margin-bottom: 7rem;
+    color: black;
+}
+
+.contact_media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_facebook {
+    margin-right: 2rem;
+}
+
+.contact_instagram {
+    margin-right: 2rem;
+}
